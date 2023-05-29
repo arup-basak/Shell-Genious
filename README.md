@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/your-username/shell-genious)
 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-This is a command-line tool that showcases shell scripting prowess.
+This is a command-line tool that showcases shell scripting process with [Botsonic](https://app.writesonic.com/botsonic) powered by [Writesonic](https://app.writesonic.com).
 
 ## Table of Contents
 
