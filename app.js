@@ -9,7 +9,8 @@ clear(); // Clear Screen
 const API_ENDPOINT = process.env.API_ENDPOINT
 const TOKEN = process.env.TOKEN
 
-const welcome = "Welcome to ShellGenius";
+const app_name = "ShellGenius"
+const welcome = `Welcome to ${app_name}`;
 
 
 figlet(welcome, (err, data) => {
@@ -33,9 +34,10 @@ const askQuestion = () => {
 
   if (question === "exit")
     return;
-  else if (question === "clear"){
+  else if (question === "clear") {
     clear()
     askQuestion()
+    return;
   }
 
   fetch(API_ENDPOINT, {
@@ -54,7 +56,7 @@ const askQuestion = () => {
     })
   }).then(response => response.json())
     .then(response => {
-      console.log(`blackGPT > ${response[0].data.answer}`)
+      console.log(`${app_name} > ${response[0].data.answer}`)
 
       askQuestion()
     })
