@@ -1,0 +1,23 @@
+{
+  "name": "shell-genious",
+  "version": "0.0.1",
+  "description": "This is a ",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.0",
+    "boxen-cli": "^4.0.0",
+    "chalk": "^5.2.0",
+    "clear": "^0.1.0",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.6.0",
+    "prompt-sync": "^4.2.0",
+    "yargs": "^17.7.2"
+  }
+}
